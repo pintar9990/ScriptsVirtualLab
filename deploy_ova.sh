@@ -139,7 +139,7 @@ mount_directory() {
     fi
 
     # 2. Realizar el bind mount
-    if ssh "root@$HOST" "sudo mount --bind \"$MOUNT_POINT\" \"$OVA_SOURCE_PATH\"" </dev/null; then
+    if ssh "root@$HOST" "sudo mount \"$MOUNT_POINT\" \"$OVA_SOURCE_PATH\"" </dev/null; then
         log_info "✅ Mount realizado: $MOUNT_POINT → $OVA_SOURCE_PATH"
         return 0
     else
