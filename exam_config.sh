@@ -5,21 +5,21 @@
 
 # Archivos y rutas base
 HOSTS_FILE="/home/pruebas/Documentos/host.txt" # Ruta del archivo de anfitriones
-EXAM_USER="examen" # Nombre de usuario que tendrá la cuenta de examen generada en los hosts
+EXAM_USER="examen" # Nombre de usuario que tendrá la cuenta de examen generada en los anfitriones
 VM_USER="user1" # Nombre de usuario que tiene la máquina virtual donde el alumno tiene que trabajar
 EVIDENCE_BASE_DIR="/home/pruebas/Evidencias" # Directorio donde se guardarán las evidencias (debe existir o se creará)
 VALIDATION_SCRIPTS_DIR="/home/pruebas/scripts_validacion" # Ruta donde se encuentran los scripts de validación
 
 # Rutas de recursos a copiar (PC_ADMIN) 
-EXAM_RESOURCES_PATH_HOST="/home/pruebas/Documentos/RecursosExamen/Host"  # Para el host
+EXAM_RESOURCES_PATH_HOST="/home/pruebas/Documentos/RecursosExamen/Host"  # Para el anfitrión
 EXAM_RESOURCES_PATH_VMS="/home/pruebas/Documentos/RecursosExamen/VMs" # Para las máquinas virtuales
 
 # Rutas remotas donde se copian los recursos 
-REMOTE_EXAM_PATH_HOST="/home/$EXAM_USER/examen_host" # En el host
+REMOTE_EXAM_PATH_HOST="/home/$EXAM_USER/examen_host" # En el anfitrión
 REMOTE_EXAM_PATH_VMS="/home/$VM_USER/examen_vm"  # Dentro de cada VM
 
 # Directorios donde los estudiantes guardarán sus respuestas (evidencias)
-EVIDENCES_HOST_PATH="/home/$EXAM_USER/evidencias_host" # En el host
+EVIDENCES_HOST_PATH="/home/$EXAM_USER/evidencias_host" # En el anfitrión
 EVIDENCES_VM_PATH="/home/$VM_USER/evidencias_vm" # En la máquina virtual
 
 # Configuración de redes y puertos
