@@ -4,7 +4,7 @@
 # ===========================================
 
 # Archivos y rutas base
-HOSTS_FILE="/home/pruebas/Documentos/host.txt" # Ruta del archivo Hosts
+HOSTS_FILE="/home/pruebas/Documentos/host.txt" # Ruta del archivo de anfitriones
 EXAM_USER="examen" # Nombre de usuario que tendrá la cuenta de examen generada en los hosts
 VM_USER="user1" # Nombre de usuario que tiene la máquina virtual donde el alumno tiene que trabajar
 EVIDENCE_BASE_DIR="/home/pruebas/Evidencias" # Directorio donde se guardarán las evidencias (debe existir o se creará)
